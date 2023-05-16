@@ -1,0 +1,110 @@
+ CURSO HTML E CSS - CURSO EM VÍDEO - GUSTAVO GUANABARA
+_____________________________________________________
+
+_________________________________________________________________________________
+Repositório do curso - github.com/gustavoguanabara     gustavoguanabara.github.io
+_________________________________________________________________________________
+
+Livros
+O'Relly HTML 5
+O'Relly CSS
+O'Relly Flexbox in CSS
+O'Relly Grid Layout in Css
+
+HTML5 e CSS3 7º Edição - Elizabeth Castro - Bruce Hyslop
+HTML & CSS - Projete e Construa Websites - Jon Duckett
+Use a Cabeça HTML e CSS - Elizabeth Robson e Eric Freeman
+
+Curso de Design Gráfico
+A Psicologia das Cores
+
+www.submarinecablemap.com
+
+
+Canal Vox - "Vídeo How does the internet work?" - https://www.youtube.com/watch?v=TNQsmPf24go
+
+_______________________________
+www.github.com/gustavoguanabara
+
+www - subdomínio
+github - domínio
+.com - TLD (top level domain)
+gustavoguanabara - URL (Uniform Resource Locator - Localizador Uniforme de Recursos) ou CAMINHO
+
+_________________________________________________________________________________________________
+
+HTML  - Hypertext Markup Language - Focada no conteúdo (textos, imagens, vídeos, tabelas, etc)
+CSS - Cascading Style Sheets - Focada no Design (cores, sombras, tamanhos, posicionamento, etc)
+JS - Javascript - Interações (Menus, animações, popups, validações, etc)
+
+_______________________________________________________________________________________________
+
+Estrutura básico de documento HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8>
+		<meta name="viewport"
+		content="width=device-width,
+		initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Olá, Mundo!</h1>
+	<body>
+</html>
+
+
+Obs.: Reassistir aula 17 para entender sobre redimensionamento de imagens
+
+Aula - Detectando fontes dentro de imagens - Módulo 2
+_________________________________________________________________________________________________
+text-indent: 30px /* Espaçamento de início de paragráfo*/
+_________________________________________________________________________________________________
+
+Simbologias nas CSS e HTML
+
+ 	SELETORES PERSONALIZADOS
+
+	# = id
+        . = class
+        :pseudo-class
+        ::pseudo-element
+        > = children
+        */
+
+__________________________________________________________________________________________________
+Box-level                                 inline-level (não quebram linha e nem ocupam a largura inteira da tela)
+<div>                                     <span>
+<h1> - <h2>                               <a>
+<p>                                       <code>
+<main>                                    <small>
+<header>                                  <strong>
+<nav>                                     <em>
+<article>                                 <sup> - <sub>
+<aside>                                   <label>
+<footer>                                  <button>
+<form>                                    <input>
+<video>                                   <select>
+______________________________________________________________________________________________________
+
+user agent ---> navegador
+
+______________________________________________________________________________________________________
+
+Vídeo para reassistir - Modelo de Caixas na prática (parte 1) - @Curso em Vídeo HTML5 e CSS3
+
+______________________________________________________________________________________________________
+
+margin: auto; --->> para deixar caixas no meio da tela
+
+Obs.: Toda variável em CSS começa com --
+
+
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+
+MÓDULO 3/4
+"""""""""""
+Capítulo 18
+"""""""""""

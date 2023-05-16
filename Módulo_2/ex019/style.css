@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+em HTML o "id" corresponde ao "#" em CSS - Um elemento por página
+em HMTL o "class" corresponde ao "." em CSS - vários elementos por página
+*/
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+/* Pode ser somente o "#principal" */
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    color: rgb(73, 109, 71);
+}
+
+.basico {
+    color: rgb(73, 109, 71);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(106, 109, 71);
+}
+
+.avancado {
+    color: rgb(109, 71, 71);
+}
+
+.destaque {
+    background-color: rgba(146, 145, 90, 0.397);
+}
