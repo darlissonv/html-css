@@ -1,7 +1,10 @@
  CURSO HTML E CSS - CURSO EM VÍDEO - GUSTAVO GUANABARA
-_____________________________________________________
+_______________________________________________________
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 
 _________________________________________________________________________________
+
 Repositório do curso - github.com/gustavoguanabara     gustavoguanabara.github.io
 _________________________________________________________________________________
 
@@ -24,13 +27,13 @@ www.submarinecablemap.com
 Canal Vox - "Vídeo How does the internet work?" - https://www.youtube.com/watch?v=TNQsmPf24go
 
 _______________________________
+
 www.github.com/gustavoguanabara
 
 www - subdomínio
 github - domínio
 .com - TLD (top level domain)
 gustavoguanabara - URL (Uniform Resource Locator - Localizador Uniforme de Recursos) ou CAMINHO
-
 _________________________________________________________________________________________________
 
 HTML  - Hypertext Markup Language - Focada no conteúdo (textos, imagens, vídeos, tabelas, etc)
@@ -58,7 +61,9 @@ Estrutura básico de documento HTML
 Obs.: Reassistir aula 17 para entender sobre redimensionamento de imagens
 
 Aula - Detectando fontes dentro de imagens - Módulo 2
+
 _________________________________________________________________________________________________
+
 text-indent: 30px /* Espaçamento de início de paragráfo*/
 _________________________________________________________________________________________________
 
@@ -74,6 +79,7 @@ Simbologias nas CSS e HTML
         */
 
 __________________________________________________________________________________________________
+
 Box-level                                 inline-level (não quebram linha e nem ocupam a largura inteira da tela)
 <div>                                     <span>
 <h1> - <h2>                               <a>
@@ -89,11 +95,9 @@ Box-level                                 inline-level (não quebram linha e nem
 ______________________________________________________________________________________________________
 
 user agent ---> navegador
-
 ______________________________________________________________________________________________________
 
 Vídeo para reassistir - Modelo de Caixas na prática (parte 1) - @Curso em Vídeo HTML5 e CSS3
-
 ______________________________________________________________________________________________________
 
 margin: auto; --->> para deixar caixas no meio da tela
@@ -108,3 +112,32 @@ MÓDULO 3/4
 """""""""""
 Capítulo 18
 """""""""""
+______________________________________________________________________
+
+Obs.:Toda elemento caixa em html pode ter um "background-image"
+______________________________________________________________________
+
+background-repeat:
+a) no-repeat; ---> Não repete a imagem se ela for menor que o viewport
+b) repeat-x; ----> Repete a imagem apenas no eixo x
+c) repeat-y; ----> Repete a imagem apenas no eixo y
+d) repeat; ------> Preenche toda a tela com a imagem
+_______________________________________________________________________
+
+background-size:
+a) auto; ---> navegador se vira para mostrar a imagem
+b) tamanho fixo em pixels ou % da tela
+c) contain; ---> mostra 100% da imagem tentando adaptar ao tamanho da tela sem cortar
+d) cover; ---> Pode fazer cortes na imagem dependendo do tamanho em que a tela está, porém preeche a tela inteira
+_________________________________________________________________________________________________________________
+
+
+Shorthand - background
+color --> image --> position --> repeat --> [size] --> attachment
+[size] --> não funciona no shorthand, é necessário declarar a parte
+background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+background-size: cover;
+
+_________________________________________________________________________________________________________________
+
+Obs.: Quando colocamos um posicionamento absoluto em um elemento (position: absolute;), podemos configurar duas propriedades (left e top)
