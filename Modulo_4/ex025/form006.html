@@ -12,12 +12,35 @@
 
         <p>
             <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
         </p>
-
+        <p>
+            <label for="inivel">Nível de Satisfação</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5">
+        </p>
+        <p>
+            <label for="ifoto">Foto de Perfil</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+        <fieldset>
+            <legend>Música</legend>
+            <label for="estilo"> Qual o seu estilo musical ?</label>
+            <input id="estilo" name="estilo" type="text" list="listaestilos"/>
+            <datalist id="listaestilos"><br/>Escolha entre estes:
+            <option value="samba">Samba</option>
+            <option value="blues">Blues</option>
+            <option value="jazz">Jazz</option>
+            <option value="mpb">MPB</option>
+            <option value="rock">Rock</option>
+            <option value="clássico">Clássico</option>
+            <option value="bossanova">Bossa-Nova</option>
+            <option value="pop">Pop</option>
+            </datalist>
+            </fieldset>
     </form>
 </body>
 </html>
