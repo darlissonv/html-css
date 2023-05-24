@@ -30,10 +30,15 @@
         main {
             background-color: rgba(255, 255, 255, 0.842);
             width: 400px;
-            
             margin: auto;
-            border-radius: 10px;
+            /*
+            Coloquei as duas configurações abaixo
+            margin-right: 20px;
+            margin-left: 20px;
+            */
+            
             margin-top: 20px;
+            border-radius: 10px;
             padding: 10px;
         }
 
@@ -46,7 +51,7 @@
         }
 
         img {
-            display: block;
+            /* display: block; */
             margin: auto;
         }
 
@@ -57,6 +62,75 @@
         img#tv { display: none; }
 
         /*Todas as demais mídias */
+
+        @media print {
+
+            * {
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            body {
+                /* Desnecessário pois a impressora não imprime o background */
+                background-image: url(../imagens/back-print.jpg);
+                                
+            }
+
+            main {
+                width: 90vw;
+                border: 2px solid black;
+            }
+
+            main > h1 {
+                color: black;
+                text-shadow: none;
+            }
+
+            main::after {
+                content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+                text-decoration: overline;
+            }
+
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            
+            body {
+                background-image: url(../imagens/back-tablet.jpg);
+            }
+            img#smartphone { display: none; }
+            img#tablet { display: block; }
+            img#printer { display: none; }
+            img#pc { display: none; }
+            img#tv { display: none; }
+
+        }
+
+        @media screen and (min-width:992px) and (max-width: 1200px) {
+            
+            body {
+                background-image: url(../imagens/back-pc.jpg);
+            }
+            img#smartphone { display: none; }
+            img#tablet { display: none; }
+            img#printer { display: none; }
+            img#pc { display: block; }
+            img#tv { display: none; }
+            
+        }
+
+        @media screen and (min-width:1200px) {
+
+            body {
+                background-image: url(../imagens/back-tv.jpg);
+            }
+            img#smartphone { display: none; }
+            img#tablet { display: none; }
+            img#printer { display: none; }
+            img#pc { display: none; }
+            img#tv { display: block; }
+
+        }
+
     </style>
 </head>
 <body>
