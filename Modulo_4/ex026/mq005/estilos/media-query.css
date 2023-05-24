@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) {
+
+    span.material-icons {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        width: 768px;
+        margin: auto;
+    }
+
+    menu > ul > li {
+        display: inline;
+    }
+    
+
+    menu > ul > li > a {
+        display: inline-block;
+        width: 126px;
+        border-bottom: 2px solid #398076;
+    }
+
+    main {
+        width:768px
+    }
+}
