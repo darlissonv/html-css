@@ -192,3 +192,11 @@ Tamanho padrão de um iframe é 300x150
 
 
 Obs.: Para que o botão de Rádio somente possa ser marcado uma vez, o name="" tem que ser o mesmo para todos.
+
+MÓDULO 4/5
+"""""""""""
+Capítulo 25
+"""""""""""
+
+Media Query = Media type + Media features
+

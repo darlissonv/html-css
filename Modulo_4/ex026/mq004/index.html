@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        /* Versão Mobile First */
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box; /* Inclui a borda no cálculo do tamanho */
+        }
+
+        html {
+            
+            height: 100vh;
+        }
+
+        body {
+            background: black url(../imagens/back-phone.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        main {
+            background-color: rgba(255, 255, 255, 0.842);
+            width: 400px;
+            
+            margin: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
+            
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        img#smartphone { display: block; }
+        img#tablet { display: none; }
+        img#printer { display: none; }
+        img#pc { display: none; }
+        img#tv { display: none; }
+
+        /*Todas as demais mídias */
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Media Queries</h1>
+        <img id="smartphone" src="imagens/icon-phone.png" alt="Acessando pelo smartphone">
+        <img id="tablet" src="imagens/icon-tablet.png" alt="Acessando via tablet">
+        <img id="printer" src="imagens/icon-print.png" alt="Versão para impressora">
+        <img id="pc" src="imagens/icon-pc.png" alt="Versão para desktop">
+        <img id="tv" src="imagens/icon-tv.png" alt="Versão para TV">
+    </main>
+</body>
+</html>
